@@ -1,8 +1,9 @@
-package com.ecshop.EcShop.domain.user;
+package com.ecshop.EcShop.domain.user.entitiy;
 
 import com.ecshop.EcShop.domain.common.BaseTime;
-import com.ecshop.EcShop.domain.order.DeliveryOrder;
-import com.ecshop.EcShop.domain.orderedProduct.OrderedProduct;
+import com.ecshop.EcShop.domain.order.entity.DeliveryOrder;
+import com.ecshop.EcShop.domain.orderedProduct.entity.OrderedProduct;
+import com.ecshop.EcShop.domain.user.RoleType;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -30,10 +31,10 @@ public class User extends BaseTime {
     @Column(name = "nick_name", nullable = false)
     private String nickName;
 
-    @Column(name = "user_image", nullable = false)
+    @Column(name = "user_image")
     private String userImage;
 
-    @Column(name = "phone", nullable = false)
+    @Column(name = "phone_number", nullable = false)
     private String phoneNumber;
 
     @Column(name = "point", nullable = false)
@@ -52,6 +53,7 @@ public class User extends BaseTime {
         this.userImage = userImage;
         this.phoneNumber = phoneNumber;
         this.role = RoleType.USER;
+        this.point = 0;
     }
 
 //    @Column(name = "password", nullable = false)

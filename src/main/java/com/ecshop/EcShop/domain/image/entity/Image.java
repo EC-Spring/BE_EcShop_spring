@@ -1,4 +1,4 @@
-package com.ecshop.EcShop.domain.image;
+package com.ecshop.EcShop.domain.image.entity;
 
 import com.ecshop.EcShop.domain.common.BaseTime;
 import lombok.Getter;

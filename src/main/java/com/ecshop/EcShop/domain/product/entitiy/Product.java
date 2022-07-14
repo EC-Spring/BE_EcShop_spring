@@ -1,8 +1,8 @@
-package com.ecshop.EcShop.domain.product;
+package com.ecshop.EcShop.domain.product.entitiy;
 
 
 import com.ecshop.EcShop.domain.common.BaseTime;
-import com.ecshop.EcShop.domain.image.Image;
+import com.ecshop.EcShop.domain.image.entity.Image;
 import com.ecshop.EcShop.domain.size.Size;
 import lombok.Builder;
 import lombok.Getter;

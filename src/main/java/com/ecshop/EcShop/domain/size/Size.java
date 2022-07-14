@@ -1,7 +1,7 @@
 package com.ecshop.EcShop.domain.size;
 
 import com.ecshop.EcShop.domain.common.BaseTime;
-import com.ecshop.EcShop.domain.product.Product;
+import com.ecshop.EcShop.domain.product.entitiy.Product;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

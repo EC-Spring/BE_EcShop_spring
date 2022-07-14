@@ -1,11 +1,12 @@
-package com.ecshop.EcShop.domain.orderedProduct;
+package com.ecshop.EcShop.domain.orderedProduct.entity;
 
 
 import com.ecshop.EcShop.domain.common.BaseTime;
-import com.ecshop.EcShop.domain.order.DeliveryOrder;
-import com.ecshop.EcShop.domain.product.Product;
+import com.ecshop.EcShop.domain.order.entity.DeliveryOrder;
+import com.ecshop.EcShop.domain.orderedProduct.OrderType;
+import com.ecshop.EcShop.domain.product.entitiy.Product;
 import com.ecshop.EcShop.domain.size.Size;
-import com.ecshop.EcShop.domain.user.User;
+import com.ecshop.EcShop.domain.user.entitiy.User;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
